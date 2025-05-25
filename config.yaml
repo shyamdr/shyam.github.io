@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Shyam D R"
     #subtitle: 
-    content: "An SDE at Nielsen with 4+ years of experience at Tredence and Unacademy, specializing in designing data-intensive applications, scalable systems, cloud technologies (AWS, Azure), and Devops."
+    content: "An SDE at Nielsen with 4+ years of experience working at Tredence and Unacademy, specializing in designing data-intensive applications, scalable systems, cloud technologies (AWS, Azure), and Devops."
     image: "images/me3.jpeg"
     # button:
     #   background - color: 
@@ -114,105 +114,96 @@ params:
   about:
     enable: true
     title: "About me:"
-    image: "/images/me2.jpeg"
+    image: "/images/me1.jpeg"
     content: |
-      I am an SDE at Amazon Pharmacy, specializing in pricing and offers for pharmacy services.  
-      I hold an MS in Computer Science from NYU and a Bachelor's from NITK.  
-
-      With experience at Amazon, Oracle, and Honeywell, I have built scalable, high-performance systems that power global businesses. My expertise spans Java, C++, Python, AWS, OCI, microservices, and full-stack development.  
+      I am a Data-Focused Software Engineer with over 4 years of experience building scalable data pipelines, designing robust software systems, and developing machine learning models. 
+      
+      Primarily as a Data Engineer, I am skilled at creating efficient ETL workflows, optimizing big data processes, and managing cloud-based data infrastructure using tools like Apache Spark, Airflow, Databricks, Snowflake and AWS.
+      
+      In my current role as SDE at Nielsen, specializing in Advertisment Intelligence, I helps clients such Amazon Prime, Netflix and YouTube to provide valuable insights on the social market trends to help them ...
 
       Passionate about solving complex engineering challenges, I thrive in designing and optimizing distributed systems that drive impactful solutions.  
-
-    # I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.  
-    # content: |-
-    #  I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
-    #  I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
-    #  I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
-    #  - At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
-    #  - At Honeywell, I automated critical monitoring processes.
-    #  - My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
-    #  I am passionate about developing scalable applications and innovative solutions.
-    #  I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
      
     skills:
       enable: true
       title: "Skills:"
       items:
-        - "Java, C++, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
-        - "AWS Lambda, AWS S3, AWS Lex, Ec2, AWS Codepipeline, AWS Cloudformation, AWS Cloudwatch, CI/CD Pipeline,Effective Communication, Leadership, Problem-Solving, Team Player"
+        - "Java, C++, Python, SQL, Linux"
+        - "Git, Jenkins, Devops, Docker, Kubernetes, Kafka, Elasticsearch"
+        - "AWS, Azure, Databricks, Snowflake, Dbt, Talend"
+        - "Apache Spark, HDFS, Flink, Maven, Iceberg"
+        - "Deep Learning, LLMs, Numpy, Pandas, MATLAB, NLP"
         # - ""
-       
-       
 
   # Experience
   experience:
     enable: true
     items:
 
-      - job: "Software Developement Engineer"
-        company: "Amazon"
-        companyUrl: "https://pharmacy.amazon.com/"
+      - job: "Software Engineer"
+        client: "Amazon"
+        company: "Nielsen"
+        companyUrl: "https://www.amazon.com/"
         # date: "May 2024 - Aug 2024"
         info:
           enable: true
-          content: "Location: Seattle, WA, USA"
+          content: "Location: Bangalore, KA, IND"
         featuredLink:
           enable: false
         content: |
-          Seattle, WA, USA
-          - Designed and implemented a JAVA endpoint for drug price calculations and retrieval, optimizing the insurance claims process for whole of Amazon Pharmacy.
-          - Developed and deployed a CloudFormation dashboard for real-time monitoring, automating failure alerts and ticket generation to enhance system reliability.
-          - Conducted thorough Unit and Integration testing within a Full CI/CD pipeline, ensuring seamless deployment and robust functionality of updates
+          Bangalore, KA, IND
+          - Designed end-to-end pipelines to integrate Connected TV (CTV) ads portfolio improving data accessibility and enabling a 10% increased reporting coverage.
+          - Optimized storage efficiency by leveraging open-source file formats and strategic data partitioning in S3, reducing API list calls by 25% and cutting storage costs.
+          - Contributed to a product matching algorithm for ads and creatives using fuzzy matching and Jaccard similarity, improving matching efficiency by 40%.
+          - Contributed on cloud architecture redesign by implementing Spot EMR clusters with On-Demand instances, reducing monthly cloud costs by 25%.
 
 
-      - job: "Applications Engineer 2 (IC2)"
-        company: "Oracle"
-        companyUrl: "https://www.oracle.com/"
-        date: "July 2021 - Aug 2023"
+      - job: "Data Engineer - 2"
+        company: "Metyis"
+        companyUrl: "https://www.metyis.com/"
+        date: "July 2022 - Dec 2024"
         info:
           enable: true
-          content: "Location: Bengaluru, India"
+          content: "Location: Bangalore, KA, India"
         featuredLink:
           enable: false
         content: |
-          Bengaluru, India
-          - Instrumental in the stabilization of one of Oracle’s Fortune 500 customers’ businesses.
-          - Developed a SaaS application - CX Audience by eliminating security issues, increasing the scalability, performance and productivity using JAVA and SQL.
-          - Engineered a production monitoring system utilizing Grafana and Prometheus to visually represent time series data, leading to enhanced data insights and 50% increase in operational efficiency.
+          Bangalore, KA, India
+          - Contributed to the architectural design of a unified analytics solution on Fabric and OneLake, integrating 10+ data sources and improving query performance by 40%
+          - Collaborated on a metadata-driven ingestion framework for automated data ingestion across multiple sources, reducing data orchestration costs by 30%.
 
       
-      - job: "Software Development Engineering Intern"
-        company: "Honeywell"
-        companyUrl: "https://www.honeywell.com/us/en"
-        date: "June 2020 - July 2020"
+      - job: "Data Engineer"
+        company: "Tredence"
+        companyUrl: "https://www.tredence.com/"
+        date: "June 2021 - June 2022"
         info:
           enable: true
-          content: "Location: Hyderabad, India "
+          content: "Location: Bangalore, KA, India"
         featuredLink:
           enable: true
-          url: "https://www.honeywell.com/us/en"
+          url: "https://www.tredence.com/"
         content: |
-          Hyderabad, India
-          - Programmed a functionality to monitor and notify operational and mechanical faults transmitted from aircraft traffic with resolution steps leveraging ReactJS, eliminating manual monitoring of 6 hrs daily.
-          - Engineered a user-friendly, streamlined interface to facilitate seamless activation of aircraft connectivity.
+          Bangalore, KA, India
+          - Developed a robust batch ETL process to extract 10+ TB of data from Graph REST API using Azure Data Factory, Databricks and load data to Snowflake, improving data transformation efficiency
+          - Improved data accessibility and query speeds by 15% by loading data into Snowflake and implementing effective Data modelling techniques.
 
-
-      - job: "Web Developer"
-        company: "Ministry of Education, Govt of India"
-        companyUrl: "https://www.education.gov.in/"
+      - job: "Intern"
+        company: "Unacademy"
+        companyUrl: "http://unacademy.com/"
         date: "March 2019 - August 2019"
         info:
           enable: true
           content: "Location: Mangalore, India"
         featuredLink:
           enable: true
-          url: "https://www.education.gov.in/"
+          url: "http://unacademy.com/"
         info:
           content: 
         content: |-
           Mangalore, India
-          - Processed and managed 4000+ Under Graduation (UG) and 150+ Post Graduation (PG) applications from students abroad applying to UG and PG programs respectively, encompassing 58 premier institutions in India.
-          - Devised seat allotment algorithms for all five rounds and developed the portals for document verification and displaying institute-specific admits PHP, CodeIgnitor, SQL, REST API
+          - Designed STEM courses for students preparing for undergrad competitive exams in Physics.
+          - Ensured a high satisfaction rate of 95%, with more than 20k impressions monthly.
 
 
 
