@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Shyam D R"
     #subtitle: 
-    content: "An SDE at Nielsen with 4+ years of experience at Tredence and Unacademy, specializing in scalable systems, cloud technologies (AWS, OCI), and full-stack development."
+    content: "An SDE at Nielsen with 4+ years of experience at Tredence and Unacademy, specializing in designing data-intensive applications, scalable systems, cloud technologies (AWS, Azure), and Devops."
     image: "images/me3.jpeg"
     # button:
     #   background - color: 
