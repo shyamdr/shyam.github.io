@@ -1,0 +1,342 @@
+baseURL: "https://shyam.github.io"
+languageCode: "en-us"
+title: "Shyam"
+theme: master
+
+Paginate.pagerSize: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+canonifyURLs:  true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+  #main:
+    #- identifier: blog
+      #name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+      #title: Example dropdown menu
+      #name: Dropdown
+      #weight: 2
+    #- identifier: dropdown1
+      #title: example dropdown 1
+      #name: example 1
+      #url: /#
+      #parent: dropdown
+      #weight: 1
+    #- identifier: dropdown2
+      #title: example dropdown 2
+      #name: example 2
+      #url: /#
+      #parent: dropdown
+      #weight: 2
+
+params:
+  #title: "Hugo Profile"
+  #description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  #favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
+    color:  
+        secondaryBackgroundColor: "Blue"
+    darkmode:
+        secondaryBackgroundColor: "Blue"
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #     textColor: "black"
+  #     secondaryTextColor: 
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+    # darkmode:
+    #   textColor:
+    #   secondaryTextColor:
+    #   backgroundColor:
+    #   secondaryBackgroundColor:
+    #   primaryColor:
+    #   secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+      position: absolute
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi there! I'm "
+    title: "Shyam D R"
+    #subtitle: 
+    content: "An SDE at Nielsen with 4+ years of experience at Tredence and Unacademy, specializing in scalable systems, cloud technologies (AWS, OCI), and full-stack development."
+    image: "images/me3.jpeg"
+    # button:
+    #   background - color: 
+    #   enable: true
+    #   name: "Resume"
+    #   url: "https://drive.google.com/file/d/1JQZes_6KwxXs7ZVk_wDyil-sAW8BzQKI/view?usp=sharing"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/shyamdr
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/shyamdr/
+  # About
+  about:
+    enable: true
+    title: "About me:"
+    image: "/images/me2.jpeg"
+    content: |
+      I am an SDE at Amazon Pharmacy, specializing in pricing and offers for pharmacy services.  
+      I hold an MS in Computer Science from NYU and a Bachelor's from NITK.  
+
+      With experience at Amazon, Oracle, and Honeywell, I have built scalable, high-performance systems that power global businesses. My expertise spans Java, C++, Python, AWS, OCI, microservices, and full-stack development.  
+
+      Passionate about solving complex engineering challenges, I thrive in designing and optimizing distributed systems that drive impactful solutions.  
+
+    # I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.  
+    # content: |-
+    #  I am currently an SDE at Amazon Pharmacy, where I work on pricing and offers related to pharmacy services.
+    #  I hold a Master of Science in Computer Science from NYU and a Bachelor's degree from the National Institute of Technology Karnataka (NITK).
+    #  I bring a wealth of experience from my roles at Amazon, I designed and developed an API for all drug price calculations and retreival for Insurance Claims at amazon pharmacy.
+    #  - At Oracle, where I stabilized business operations of Fortune 500 clients at Oracle.
+    #  - At Honeywell, I automated critical monitoring processes.
+    #  - My technical expertise spans Java, Python, AWS, and a variety of other modern technologies.
+    #  I am passionate about developing scalable applications and innovative solutions.
+    #  I am seeking exciting, challenging, and impactful roles where I can leverage my skills to make significant contributions and drive technological advancements.
+     
+    skills:
+      enable: true
+      title: "Skills:"
+      items:
+        - "Java, C++, Python, JavaScript, PHP, SQL, Unix, Git, Jenkings, Devops, Grafana, ReactJs, Prometheus, REST API, Docker, Kubernetes, Kibana, Kafka, Elasticsearch, Ruby, HTML, CSS"
+        - "AWS Lambda, AWS S3, AWS Lex, Ec2, AWS Codepipeline, AWS Cloudformation, AWS Cloudwatch, CI/CD Pipeline,Effective Communication, Leadership, Problem-Solving, Team Player"
+        # - ""
+       
+       
+
+  # Experience
+  experience:
+    enable: true
+    items:
+
+      - job: "Software Developement Engineer"
+        company: "Amazon"
+        companyUrl: "https://pharmacy.amazon.com/"
+        # date: "May 2024 - Aug 2024"
+        info:
+          enable: true
+          content: "Location: Seattle, WA, USA"
+        featuredLink:
+          enable: false
+        content: |
+          Seattle, WA, USA
+          - Designed and implemented a JAVA endpoint for drug price calculations and retrieval, optimizing the insurance claims process for whole of Amazon Pharmacy.
+          - Developed and deployed a CloudFormation dashboard for real-time monitoring, automating failure alerts and ticket generation to enhance system reliability.
+          - Conducted thorough Unit and Integration testing within a Full CI/CD pipeline, ensuring seamless deployment and robust functionality of updates
+
+
+      - job: "Applications Engineer 2 (IC2)"
+        company: "Oracle"
+        companyUrl: "https://www.oracle.com/"
+        date: "July 2021 - Aug 2023"
+        info:
+          enable: true
+          content: "Location: Bengaluru, India"
+        featuredLink:
+          enable: false
+        content: |
+          Bengaluru, India
+          - Instrumental in the stabilization of one of Oracle’s Fortune 500 customers’ businesses.
+          - Developed a SaaS application - CX Audience by eliminating security issues, increasing the scalability, performance and productivity using JAVA and SQL.
+          - Engineered a production monitoring system utilizing Grafana and Prometheus to visually represent time series data, leading to enhanced data insights and 50% increase in operational efficiency.
+
+      
+      - job: "Software Development Engineering Intern"
+        company: "Honeywell"
+        companyUrl: "https://www.honeywell.com/us/en"
+        date: "June 2020 - July 2020"
+        info:
+          enable: true
+          content: "Location: Hyderabad, India "
+        featuredLink:
+          enable: true
+          url: "https://www.honeywell.com/us/en"
+        content: |
+          Hyderabad, India
+          - Programmed a functionality to monitor and notify operational and mechanical faults transmitted from aircraft traffic with resolution steps leveraging ReactJS, eliminating manual monitoring of 6 hrs daily.
+          - Engineered a user-friendly, streamlined interface to facilitate seamless activation of aircraft connectivity.
+
+
+      - job: "Web Developer"
+        company: "Ministry of Education, Govt of India"
+        companyUrl: "https://www.education.gov.in/"
+        date: "March 2019 - August 2019"
+        info:
+          enable: true
+          content: "Location: Mangalore, India"
+        featuredLink:
+          enable: true
+          url: "https://www.education.gov.in/"
+        info:
+          content: 
+        content: |-
+          Mangalore, India
+          - Processed and managed 4000+ Under Graduation (UG) and 150+ Post Graduation (PG) applications from students abroad applying to UG and PG programs respectively, encompassing 58 premier institutions in India.
+          - Devised seat allotment algorithms for all five rounds and developed the portals for document verification and displaying institute-specific admits PHP, CodeIgnitor, SQL, REST API
+
+
+
+
+  # Education
+  education:
+    enable: true
+    index: true
+    items:
+      - title: "Master of Science in Computer Science"
+        school:
+          name: "New York University"
+          url: "https://engineering.nyu.edu/"
+        date: "09/2023 - 12/2024"
+        GPA: "3.83 out of 4.0"
+        content: |-
+            - Course Work: 
+              - Cloud Computing
+              - Big data
+              - Information,security and Privacy
+              - Design and Analysis of algorithms
+              - Operating Systems
+              - Principles of Databases
+
+      - title: "Bachelor of Technology in Information Technology"
+        school:
+          name: "National Institute of Technology Karanataka, Surathkal"
+          url: "https://www.nitk.ac.in/"
+        date: "2017 - 2021"
+        # GPA: "8.1 out of 10"
+        content: |- 
+          - Published a research work at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
+
+
+          Extracurricular Activities
+            - Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
+            - Web Developer at Integrated Resource and Information Sharing (IRIS).
+            - Member of the implementation committee of Government of India Project for Direct Admission of Students Abroad
+
+  #featuredLink:
+  #enable: true
+  #name: "My academic record"
+  #url: "https://example.com"
+
+  # Achievements
+  achievements:
+
+    enable: true
+    items:
+      #- title: Smart India Hackathon 2020
+       # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
+        #url: "https://www.sih.gov.in"
+      # - title: Women Entrepreneurship Week Candidate 2020
+      #   content: Was selected to meet a Senior Director from Jio Industries for a discussion about the Smart Yoga Instructor application AIC Incubation Center at IIIT Kottayam.
+      # - title: Elected Cultural Secretary 2019 - 2021
+      #   content: Conducted 15+ events with a footprint of more than 300+ students and Managed a team of 25 students for fundraising and event organization # Conducted events virtually during COVID for effective engagement among new students.
+      #   url: "https://www.iiitkottayam.ac.in/#!/culturalClub"
+      - title: Presented my paper at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
+        content: Author of “Performance evaluation of deep learning models for word sense disambiguation” at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. This paper was based on my Bachelor's Major Project and is published by Springer.
+        url: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18696969
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://link.springer.com/chapter/10.1007/978-981-19-0840-8_18
+      - title: Achieved a global ranking of 1131 in Codechef's Data Structures and Algorithms contest 
+        content: Participated in a global competitive contest of data structures and algorithms and achieved a rank of 1131 global ranking.
+      - title: HackWithInfy DataStructures and Algorithms Finalist
+        content: I was a Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
+      
+ # projects
+  projects:
+    enable: true
+    items:
+      - title: Most Viewed Time Frame Recommendation for YouTube Data
+        content: Built a system to recommend the most engaging time frames for YouTube videos using Kafka for real-time data ingestion, MongoDB for storing video metadata, and PySpark for big data processing and analyzing user engagement trends across
+          different time segments.
+
+          Processed 50,000 requests daily with low latency, serving insights from 100,000+ interactions.
+
+        image: /images/projects/Colorization5.png
+        badges:
+          - "Kafka"
+          - "MongoDB"
+          - "PySpark"
+        
+      - title: Intelligent Photo Album with Natural Language Search
+        content: Developed a web application for intelligent photo album management with natural language search capabilities. Utilized AWS services such as ElasticSearch for indexing, Lambda for serverless functions, S3 for photo 
+        image: /images/projects/doge4.jpeg
+        featured:
+          name: Click here to know more!
+          link: https://github.com/shyamdr/SearchPhotos-AI
+        badges:
+          - "AWS"
+          - "Rekognition"
+          - "S3"
+          - "EC2"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/shyamdr/SearchPhotos-AI
+
+      # - title: Marketing Insights - Statistics
+      #   content: Digging through data and finding significant insights to advertise better products to customers of different backgrounds.
+      #   image: /images/projects/advert1.jpeg
+      #   featured:
+      #     name: Click here to know more!
+      #     link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+      #   # badges:
+      #   #   - "Hugo"
+      #   #   - "Bootstrap"
+      #   #   - "Javascript"
+      #   links:
+      #     - icon: fab fa-github
+      #       url: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+
+  #Contact
+  contact:
+    enable: true
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: https://www.linkedin.com/in/shyamdr/
+    btnName: Message me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/shyamdr
+      linkedin: https://www.linkedin.com/in/shyamdr/
+    # twitter: https://twitter.com
+    # facebook: https://facebook.com
