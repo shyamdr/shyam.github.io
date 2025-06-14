@@ -16,7 +16,7 @@
                 {{ if .Site.Params.about.skills.enable }}
                 <h4>{{ .Site.Params.about.skills.title }}</h4>
                 <div class="skills-list">
-                    <ul style="list-style-type: disc; padding-left: 20px;">
+                    <ul>
                         {{ range .Site.Params.about.skills.items }}
                         <li>{{ . | markdownify }}</li>
                         {{ end }}
