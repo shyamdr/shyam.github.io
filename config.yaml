@@ -205,43 +205,40 @@ params:
           - Designed STEM courses for students preparing for undergrad competitive exams in Physics.
           - Ensured a high satisfaction rate of 95%, with more than 20k impressions monthly.
 
-
-
-
   # Education
   education:
     enable: true
     index: true
     items:
-      - title: "Master of Science in Computer Science"
-        school:
-          name: "New York University"
-          url: "https://engineering.nyu.edu/"
-        date: "09/2023 - 12/2024"
-        GPA: "3.83 out of 4.0"
-        content: |-
-            - Course Work: 
-              - Cloud Computing
-              - Big data
-              - Information,security and Privacy
-              - Design and Analysis of algorithms
-              - Operating Systems
-              - Principles of Databases
+#      - title: "Bachelor of Science in Mechanical Engineering"
+#        school:
+#          name: "National Institute of Technology Karnataka"
+#          url: "https://engineering.nyu.edu/"
+#        date: "09/2023 - 12/2024"
+#        GPA: "3.83 out of 4.0"
+#        content: |-
+#            - Course Work:
+#              - Cloud Computing
+#              - Big data
+#              - Information,security and Privacy
+#              - Design and Analysis of algorithms
+#              - Operating Systems
+#              - Principles of Databases
 
-      - title: "Bachelor of Technology in Information Technology"
+      - title: "Bachelor of Technology in Mechanical Engineering"
         school:
           name: "National Institute of Technology Karanataka, Surathkal"
           url: "https://www.nitk.ac.in/"
         date: "2017 - 2021"
         # GPA: "8.1 out of 10"
         content: |- 
-          - Published a research work at the 3rd International Conference on Machine Intelligence and Signal Processing 2021. 
-
-
+          - Published a research work in International Journal of Fluid Mechanics Research, 2021
+          
           Extracurricular Activities
-            - Finalist, HackWithInfy Data structures and Algorithms coding competition hosted by Infosys.
-            - Web Developer at Integrated Resource and Information Sharing (IRIS).
-            - Member of the implementation committee of Government of India Project for Direct Admission of Students Abroad
+            - Active Volunteer, Citizens of the Great Barrier Reef by Goodera.
+            - Finalist, E-Yantra robotics competition (National) hosted by IIT Bombay, 2018.
+            - Executive member of NITK's robotics team participating in Robocon (International), annual robotics competition 2018-21
+            - Chief Technical Lead(2021), Astro-Comittee Convener(2020), Project Coordinator(2019) of Amateur Astronomy Club, NITK
 
   #featuredLink:
   #enable: true
