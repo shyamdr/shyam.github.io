@@ -12,13 +12,13 @@
             {{ end }}
             <div class="col-sm-12 col-md-12 col-lg-8 content">
                 {{ .Site.Params.about.content | markdownify }}
-
+            
                 {{ if .Site.Params.about.skills.enable }}
                 <h4>{{ .Site.Params.about.skills.title }}</h4>
                 <div class="skills-list">
-                    <ul style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; list-style-type: none; padding: 0;">
+                    <ul style="list-style-type: disc; padding-left: 20px;">
                         {{ range .Site.Params.about.skills.items }}
-                        <li style="text-align: center;">{{ . | markdownify }}</li>
+                        <li>{{ . | markdownify }}</li>
                         {{ end }}
                     </ul>
                 </div>

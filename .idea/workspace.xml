@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4485905-a7d9-471c-9421-6730245b3440" name="Changes" comment="Set up base project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/master/layouts/partials/sections/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/master/layouts/partials/sections/about.html" afterDir="false" />
-    </list>
+    <list default="true" id="b4485905-a7d9-471c-9421-6730245b3440" name="Changes" comment="change skills section layout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +25,22 @@
     &quot;assignee&quot;: &quot;shyamdr&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/shyamdr/shyam.github.io.git&quot;,
-    &quot;accountId&quot;: &quot;0bf6b368-9f58-4061-9f76-7f37e5f82d69&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shyamdr/shyam.github.io.git",
+    "accountId": "0bf6b368-9f58-4061-9f76-7f37e5f82d69"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "shyamdr",
+    "repository": "shyam.github.io"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "development",
+    "git-widget-placeholder": "#4 on development",
     "last_opened_file_path": "/Users/SHRANGAP2401/Personal Space/Projects/shyam.github.io"
   }
 }]]></component>
@@ -69,6 +75,23 @@
       <option name="presentableId" value="Default" />
       <updated>1748155621204</updated>
     </task>
+    <task id="LOCAL-00001" summary="change skills section layout">
+      <option name="closed" value="true" />
+      <created>1749881495083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749881495083</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change skills section layout">
+      <option name="closed" value="true" />
+      <created>1749881672152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749881672152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Delete README.md" />
     <MESSAGE value="Set up base project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set up base project" />
+    <MESSAGE value="change skills section layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="change skills section layout" />
   </component>
 </project>
