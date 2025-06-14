@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4485905-a7d9-471c-9421-6730245b3440" name="Changes" comment="change skills section layout" />
+    <list default="true" id="b4485905-a7d9-471c-9421-6730245b3440" name="Changes" comment="change skills section layout to horizontal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/master/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/master/static/css/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749881672152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change skills section layout to horizontal">
+      <option name="closed" value="true" />
+      <created>1749916991650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749916991650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +120,7 @@
     <MESSAGE value="Delete README.md" />
     <MESSAGE value="Set up base project" />
     <MESSAGE value="change skills section layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="change skills section layout" />
+    <MESSAGE value="change skills section layout to horizontal" />
+    <option name="LAST_COMMIT_MESSAGE" value="change skills section layout to horizontal" />
   </component>
 </project>
