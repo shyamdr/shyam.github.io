@@ -14,12 +14,14 @@
                 {{ .Site.Params.about.content | markdownify }}
 
                 {{ if .Site.Params.about.skills.enable }}
-                {{ .Site.Params.about.skills.title }}
-                <ul>
-                    {{ range .Site.Params.about.skills.items }}
-                    <li>{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
+                <h4>{{ .Site.Params.about.skills.title }}</h4>
+                <div class="skills-list">
+                    <ul style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; list-style-type: none; padding: 0;">
+                        {{ range .Site.Params.about.skills.items }}
+                        <li style="text-align: center;">{{ . | markdownify }}</li>
+                        {{ end }}
+                    </ul>
+                </div>
                 {{ end }}
             </div>
         </div>
